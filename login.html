@@ -14,14 +14,20 @@
        <div id = "time">18:43</div>
        <div id="battery">110%<span class="bolt"><i class="fas fa-battery-three-quarters"></i><i class="fas fa-bolt"></i></span></div>
     </div>
+    <div class="Explanation">
     <h1 id="Welcome">Welcome to Kokoa Clone</h1>
-    <div id="phone">if you have a Kokoa Account,</div>
-    <div id="phone1">log in with you email or phone number.</div>
+    <div id="phone">if you have a Kokoa Account,log in with you email or</div>
+    <div id="phone1">phone number.</div>
+    </div>
     </header>
-    <section id="login-id"class="login-input-section-wrap">
-        <div class="login-input-wrap">
-            <input placeholder="Email or phone number" type="text" id="Email or phone number"></input>
-            </div>
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" id="login-input-email"placeholder="Email or phone number" />
+        <input name="userpassword" type="password" id="login-input-password" placeholder="Password" />
+  
+        <input type="submit" value="Log in" id="login-input-Login"/>
+        <input type="submit" value="Sign up" id="login-input-Signup" />
+        <a href="#">Find Kokoa Account or Password</a>
+      </form>
                    <script src="https://kit.fontawesome.com/91f739af8c.js"
                    crossorigin="anonymous"
                  ></script>

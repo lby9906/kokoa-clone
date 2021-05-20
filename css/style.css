@@ -14,14 +14,48 @@ body{
     margin-right: 5px;
 }
 
-#Welcome{
+.Explanation{
     text-align: center;
 }
 
-#phone{
-    text-align: center;
+#login-form{
+    display: flex;
+  flex-direction: column;
+  margin: 60px 30px;
 }
 
-#phone1{
+#login-form a{
+    color: black;
     text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+#login-input-email{
+    width: 490px;
+    height: 35px;
+    margin: 0px auto;
+    margin-block-end: 10px;
+}
+
+#login-input-password{
+    width: 490px;
+    height: 35px;
+    margin: 0px auto;
+    margin-block-end: 10px;
+}
+
+#login-input-Login{
+    width: 500px;
+    height: 40px;
+    background: gold;
+    margin: 0px auto;
+    margin-block-end: 20px;
+}
+
+#login-input-Signup{
+    width: 500px;
+    height: 40px;
+    background: gold;
+    margin: 0px auto;
 }
