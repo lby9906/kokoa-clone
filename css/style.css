@@ -1,0 +1,27 @@
+body{
+    margin: 0%;
+}
+
+.wifi{
+    margin-left: 5px;
+}
+.head-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bolt{
+    margin-right: 5px;
+}
+
+#Welcome{
+    text-align: center;
+}
+
+#phone{
+    text-align: center;
+}
+
+#phone1{
+    text-align: center;
+}
