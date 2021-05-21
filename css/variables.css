@@ -1,0 +1,16 @@
+body{
+    margin: 0%;
+}
+
+.wifi{
+    margin-left: 5px;
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bolt{
+    margin-left: 5px;
+}
