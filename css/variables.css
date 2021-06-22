@@ -15,7 +15,19 @@ body{
     margin-left: 5px;
 }
 
-.Search{
-    display: inline-block;
-    justify-content: right;
+.head_container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;
+    padding-left:45px ;
 }
+#Search {
+    margin-top : 35px;
+}
+#aearch {
+    margin-top : 35px;
+}
+.icon_conatainr
+ {
+    display: flex;
+ }

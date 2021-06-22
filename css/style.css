@@ -5,13 +5,15 @@ body{
 .wifi{
     margin-left: 5px;
 }
+
 .head-container{
     display: flex;
     justify-content: space-between;
 }
 
 .bolt{
-    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .Explanation{
@@ -53,7 +55,6 @@ body{
     background: gold;
     margin: 0px auto;
     margin-block-end: 20px;
-    border-radius: 0.5em;
 }
 
 #login-input-Signup{
@@ -61,5 +62,16 @@ body{
     height: 40px;
     background: gold;
     margin: 0px auto;
-    border-radius: 00.5em;
+}
+
+.login_info {
+    border : none;
+    border-bottom : 1px solid gray;
+}
+
+.login_info:focus {
+    outline: none;
+}
+.submit_info {
+    border : none; 
 }
