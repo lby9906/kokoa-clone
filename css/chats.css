@@ -62,7 +62,14 @@ body{
     padding-left: 25px;
     font-size: 20px;
     font-weight: 600;
+
     
+}
+.friends_picture img {
+ width :85px;
+ height: 85px;
+ border-radius: 30px;
+ margin-left: 45px;
 }
 
 #kokoa_account {
@@ -83,4 +90,14 @@ body{
 
 #kokoa_Account {
     color: gray;
+}
+
+.chats_container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.friends_name {
+    margin-left : 15px;
 }
