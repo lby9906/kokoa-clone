@@ -28,7 +28,7 @@ body{
     margin-right: 20px;
 }
 
-.icon_containr {   
+.icon_container {   
     display: flex;
 }
 
@@ -67,4 +67,20 @@ body{
 
 #kokoa_account {
     display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background: #f3f3f3;
+    align-items: end;
+    border: 2px solid silver;
+    margin: 0px auto;
+    margin-block-end: 20px;
+    padding: 10px;
+    flex-wrap: wrap-reverse;
+}
+
+#kokoa_Account {
+    color: gray;
 }
