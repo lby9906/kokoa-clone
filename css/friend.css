@@ -1,22 +1,5 @@
-body{
-    margin: 0%;
-}
 
-.wifi{
-    margin-left: 5px;
-}
-
-.head-container{
-    display: flex;
-    justify-content: space-between;
-}
-
-.bolt{
-    margin-left: 5px;
-    padding-right: 5px;
-}
-
-.head_container {
+.friend_head_container {
     display: flex;
     justify-content: space-between;
     padding-right: 45px;
@@ -39,6 +22,7 @@ body{
      margin-right: 20px;
  }
 
+ 
 #setting {
     margin-top: 35px;
     justify-content: space-between;
@@ -51,23 +35,39 @@ body{
     display: flex;
     padding: 15px;
     justify-content: center;
+    
 }
 
 #display {
     font-weight: 500;
 
 }
+.channel_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#up_icon {
+    opacity: 0.3 ;
+    
+}
 
 .profile {
     padding-left: 45px;
+   
     display: flex;
+    align-items:center;
+    padding-bottom : 30px;
+    border-bottom :1px solid gray;
+   
+   
 }
 
-.name {
+#name {
     padding-left: 25px;
     font-size: 20px;
     font-weight: 600;
-    
+   
 }
 
 .division {
@@ -78,38 +78,68 @@ body{
 
 .show_name {
     color: gray;
-    padding-top: 10px;
+   
     text-align: justify;
     text-align-last: justify;  
 }
 .profile2 {
+    display: flex;
+    justify-content: space-between;
     padding-left: 45px;
     padding-top: 20px;
 }
-
+.info_plus {
+    display: flex;
+    align-items: center;
+}
 .channel_name {
     padding-left: 25px;
     font-size: 20px;
+   
 }
 
-#next {
-    color: gray;
-    text-align: end;
-}
-
-.menu {
+.channel_img_name {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+}
+.footer {
+   
+    display: flex;
+   justify-content: space-between;
     background: #f3f3f3;
-    align-items: end;
+  
     border: 2px solid silver;
-    margin: 0px auto;
-    margin-block-end: 20px;
-    padding: 10px;
-    flex-wrap: wrap-reverse;
+    padding-top : 20px;
+    padding-bottom:  20px;
+    
+    position: absolute;
+    width:100%;
+    bottom : 0px;
+    position: fixed;
+    
 }
 
+#ellipsis-h {
+    margin-right : 20px;
+}
+#user {
+    margin-left : 20px;
+}
 
+#chat {
+    position: relative;
+    display: flex;
+}
 
-
-
+#chat span {
+ display: block;
+ background-color: red;
+ border-radius: 30px;
+ width: 25px;
+ height: 25px;
+ text-align: center;
+ line-height: 25px;
+ position: absolute;
+ left: 16px;
+ bottom: 14px;
+}
