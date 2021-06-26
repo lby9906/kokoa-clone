@@ -1,5 +1,8 @@
 @import "friend.css";
 @import "chats.css";
+@import "setting.css";
+@import "more.css";
+
 body{
     margin: 0%;
 }
@@ -76,4 +79,14 @@ body{
 }
 .submit_info {
     border : none; 
+}
+
+.friends_name {
+    display: flex;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    
 }

@@ -1,34 +1,12 @@
 
-.friend_head_container {
+.head_container {
     display: flex;
     justify-content: space-between;
     padding-right: 45px;
     padding-left:45px ;
 }
-#Search {
-    margin-top : 35px;
-    width: 40px;
-}
 
-.icon_container
- {
-    display: flex;
-    
-    
- }
 
-#music {
-     margin-top: 35px;
-     margin-right: 20px;
- }
-
- 
-#setting {
-    margin-top: 35px;
-    justify-content: space-between;
-    padding-right: 10px;
-    padding-left: 10px;
-}
 
 .name_display {
     background:#f3f3f3;
@@ -70,18 +48,12 @@
    
 }
 
-.division {
-    border : none;
-    border-bottom : 2px solid silver;
-    margin-top: 20px;
-}
+
 
 .show_name {
     color: gray;
-   
-    text-align: justify;
-    text-align-last: justify;  
 }
+
 .profile2 {
     display: flex;
     justify-content: space-between;
@@ -91,7 +63,13 @@
 .info_plus {
     display: flex;
     align-items: center;
+    opacity: 0.3 ;
 }
+
+#next {
+    padding-right: 8px;
+}
+
 .channel_name {
     padding-left: 25px;
     font-size: 20px;
@@ -142,4 +120,20 @@
  position: absolute;
  left: 16px;
  bottom: 14px;
+ color: white;
+}
+
+#channel_Twitter img{
+ width :65px;
+ height: 65px;
+ border-radius: 25px;
+ margin-left: 0px; 
+}
+
+#Twitter img{
+ width :80px;
+ height: 80px;
+ border-radius: 25px;
+ margin-left: 0px;
+ margin-top: 12px;  
 }
