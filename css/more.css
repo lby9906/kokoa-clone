@@ -39,7 +39,7 @@
     margin-left: 50px;
     margin-top :30px;
     text-align: center;
-    
+
 }
 
 #calendar_title {
@@ -56,4 +56,49 @@
 
 #dollar_title {
     margin-top: 10px;
+}
+
+.division {
+    display: flex;
+    padding-bottom : 50px;
+    border-bottom :1px solid silver;
+}
+
+.suggest {
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+#application img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+#application2_container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-top: 20px; 
+}
+
+.application_info {
+    display: flex;
+    text-align: center;
+    background-color: red;
+}
+
+.application_container {
+   background-color: royalblue;
+}
+
+
+.application2_info {
+    display: inline;
+    text-align: center;
+    background-color: salmon;
+    
 }

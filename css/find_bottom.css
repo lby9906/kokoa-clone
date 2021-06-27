@@ -1,0 +1,61 @@
+.block_division {
+    border-bottom :1px solid silver;
+    margin-top: 10px;
+}
+
+.recommended {
+    padding-top: 20px;
+    padding-left: 45px;
+    color: gray;
+}
+
+.recommended_check_friends {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+}
+
+.block_division2 {
+    border-bottom :1px solid silver;
+    margin-top: 120px;
+}
+
+.openchating_container {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+
+.openchating_go {
+    opacity: 0.5;
+    padding-right: 45px;
+}
+
+.promotion_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 45px;
+}
+
+.promotions_BTS {
+    padding-left: 45px;
+    padding-top: 70px;
+    background-color: royalblue;
+}
+
+.promotions_members img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.promotions_members {
+    display: flex;
+    background-color: pink;
+}

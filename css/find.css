@@ -1,0 +1,64 @@
+#search {
+    margin-left: 90px;
+}
+
+.find_information {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top :3px;
+    text-align: center;
+}
+
+#qr_title {
+    margin-top: 13px;
+}
+
+#add_contact_title {
+    margin-top: 13px;
+}
+
+#id_title {
+    margin-top: 13px;
+}
+
+#invitation_title {
+    margin-top: 13px;
+}
+
+.space_division {
+    padding-bottom : 40px;
+    border-bottom :1px solid silver;
+}
+
+.recommendation {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.friends_check {
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+    color: gray;
+}
+
+.space_division2 {
+    padding-bottom : 135px;
+    border-bottom :1px solid silver;
+}
+
+.openchat_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    color: gray;
+    padding-left: 45px;
+}
+
+.openchat_go {
+    opacity: 0.5;
+    padding-right: 45px;
+}
