@@ -1,9 +1,7 @@
 body {
     height: 150vh;
 }
-#search {
-    margin-left: 90px;
-}
+
 .find_information {
     display: flex;
     justify-content: space-between;

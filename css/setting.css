@@ -1,11 +1,13 @@
 .setting_container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
     align-items: center;
+    margin: 0px 25px 50px 25px;
+    
    
 
 }
+
 
 .setting_body_container {
     color: gray;

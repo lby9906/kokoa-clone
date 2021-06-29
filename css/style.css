@@ -3,10 +3,11 @@
 @import "setting.css";
 @import "more.css";
 @import "find.css";
-@import "find_bottom.css";
+@import "three_click.css";
 
 body{
     margin: 0%;
+
 }
 
 .wifi{
