@@ -65,12 +65,13 @@
     height: 35px;
     border-radius: 0px 15px 15px 15px;
     width: 44px;
+    text-align: center;
 
 }
 
 .user_name_comment {
     margin-left: 8px;
-    text-align: center;
+    
     
 }
 
@@ -80,7 +81,9 @@
 }
 
 .user_comment_time{
-    display: flex;
+  display: flex; 
+  
+
     
 }
 
